@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Midline Interior - Premium interior design, renovation, and plain design services in Madurai. Owned by Lokesh K.">
+    <title>Midline Interior | Modern Elegance in Madurai</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="container">
+            <nav class="header-nav">
+                <div class="header-left">
+                    <div class="logo-container">
+                        <img src="assets/images/logo.jpg" alt="Midline Construction Logo" class="logo-img">
+                        <a href="#" class="logo">MIDLINE<br><span>CONSTRUCTION</span></a>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <ul class="nav-links">
+                        <li><a href="#intro">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                    <a href="#booking" class="btn btn-cta">Book Consultation</a>
+                    <button class="menu-toggle" id="mobile-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- WhatsApp Chat Widget -->
+    <div id="chatbot-wrapper">
+        <div id="chatbot-window">
+            <div class="chat-header">
+                <div class="chat-header-info">
+                    <span class="whatsapp-icon-small">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="white">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                    </span>
+                    <span>Midline Support</span>
+                </div>
+                <button id="close-chat">&times;</button>
+            </div>
+            <div class="chat-body">
+                <p>Hi there! 👋 How can we help you build your dream project today?</p>
+            </div>
+            <div class="chat-footer">
+                <a href="https://wa.me/917904138703" target="_blank" class="chat-btn">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="white">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                    Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+        <button id="chatbot-toggle" class="whatsapp-float-btn">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="white">
+                <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+            </svg>
+            <span class="pulse-ring"></span>
+        </button>
+    </div>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Building Excellence, Designing Dreams</h1>
+            <p>Your one-stop solution for Construction, Interiors, and Renovation in Madurai.</p>
+            <a href="#intro" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section id="intro" class="intro-section">
+        <div class="container reveal">
+            <span class="intro-badge">✨ MIDLINE CONSTRUCTION ✨</span>
+            <div class="intro-services">
+                <span class="intro-item">🏗️ Construction</span>
+                <span class="intro-item">🪚 Interiors</span>
+                <span class="intro-item">🔧 Renovation</span>
+            </div>
+
+            <div class="intro-list">
+                <div class="intro-list-item">
+                    <h4>Modern Living Solutions</h4>
+                    <p>Modular Kitchens | Wardrobes | TV Units</p>
+                </div>
+                <div class="intro-list-item">
+                    <h4>Premium Finishing</h4>
+                    <p>Wall Panelling | False Ceilings | Complete Interiors</p>
+                </div>
+                <div class="intro-list-item">
+                    <h4>Our Commitment</h4>
+                    <p>Quality work, on-time delivery, budget-friendly</p>
+                </div>
+            </div>
+
+            <div style="margin-top: 3rem;">
+                <a href="tel:7904138703" class="btn btn-alt">📞 Call Lokesh: 7904138703</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-container">
+        <div class="container reveal">
+            <div class="stat-item">
+                <h2>500+</h2>
+                <p>Happy Customers</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <div class="section-title reveal">
+            <h2>Our Expertise</h2>
+            <p>From architectural construction to finest interior detailing</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card reveal">
+                <div class="service-img" style="background-image: url('assets/images/hero_interior.png');">
+                </div>
+                <div class="service-info">
+                    <h3>Premium Interiors</h3>
+                    <p>Modular Kitchens, Wardrobes, TV Units, and stylish Wall Panelling designed for modern lifestyles.
+                    </p>
+                </div>
+            </div>
+            <div class="service-card reveal">
+                <div class="service-img" style="background-image: url('assets/images/renovation.png');">
+                </div>
+                <div class="service-info">
+                    <h3>Modern Renovation</h3>
+                    <p>Transforming and upgrading old spaces with contemporary designs and high-quality craftsmanship.
+                    </p>
+                </div>
+            </div>
+            <div class="service-card reveal">
+                <div class="service-img" style="background-image: url('assets/images/plain_design.png');">
+                </div>
+                <div class="service-info">
+                    <h3>Full Construction</h3>
+                    <p>End-to-end construction solutions for new projects, ensuring structural integrity and aesthetic
+                        beauty.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Our Masterpieces</h2>
+                <p>A glimpse into the spaces we've transformed</p>
+            </div>
+
+            <div class="portfolio-grid-new reveal">
+                <a href="residential.html" class="portfolio-card-link">
+                    <div class="portfolio-card">
+                        <div class="portfolio-card-img">
+                            <img src="assets/images/residential.png" alt="Residential Interior">
+                        </div>
+                        <div class="portfolio-card-content">
+                            <h3>Residential</h3>
+                            <div class="portfolio-underline"></div>
+                            <p>We are the best residential interior designers and decorators within your budget.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="commercial.html" class="portfolio-card-link">
+                    <div class="portfolio-card">
+                        <div class="portfolio-card-img">
+                            <img src="assets/images/renovation.png" alt="Commercial Interior">
+                        </div>
+                        <div class="portfolio-card-content">
+                            <h3>Commercial</h3>
+                            <div class="portfolio-underline"></div>
+                            <p>We are the best commercial interior designers and decorators within your budget.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="corporate.html" class="portfolio-card-link">
+                    <div class="portfolio-card">
+                        <div class="portfolio-card-img">
+                            <img src="assets/images/corporate.png" alt="Corporate Interior">
+                        </div>
+                        <div class="portfolio-card-content">
+                            <h3>Corporate</h3>
+                            <div class="portfolio-underline"></div>
+                            <p>We are the best corporate interior designers and decorators within your budget.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>What Our Clients Say</h2>
+                <p>Real stories from people who trusted our expertise</p>
+            </div>
+            <div class="testimonial-grid reveal">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Lokesh and his team transformed our home beyond our expectations. The
+                        modular kitchen is both beautiful and highly functional. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Ramesh Kumar</h4>
+                            <span>Madurai Resident</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Professionalism and attention to detail are what set Midline
+                        Construction apart. They finished our office renovation right on schedule."</p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Anitha Selvam</h4>
+                            <span>Business Owner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container reveal">
+        <div class="about-flex">
+            <div class="about-text">
+                <div class="section-title" style="text-align: left;">
+                    <h2 style="display: block; margin-left: 0;">Who We Are</h2>
+                </div>
+                <p>Introducing <strong>Lokesh</strong>, founder of <strong>MIDLINE CONSTRUCTION</strong>, providing
+                    reliable interior and construction services.</p>
+
+                <div class="about-points">
+                    <div class="about-point">Specializes in residential and commercial interior works.</div>
+                    <div class="about-point">Expert in creating custom wardrobes, TV units, and modular kitchens.</div>
+                    <div class="about-point">Skilled in modern wall panelling and stylish false ceiling designs.</div>
+                    <div class="about-point">Offers end-to-end construction solutions for new projects.</div>
+                    <div class="about-point">Undertakes renovation works to transform old spaces.</div>
+                    <div class="about-point">Focuses on quality craftsmanship with attention to detail.</div>
+                    <div class="about-point">Provides creative and functional designs tailored to client needs.</div>
+                    <div class="about-point">Uses durable materials and modern techniques.</div>
+                    <div class="about-point">Ensures on-time project delivery with professional execution.</div>
+                    <div class="about-point">Delivers budget-friendly solutions without quality compromise.</div>
+                    <div class="about-point">Experienced in space planning and efficient layout designs.</div>
+                    <div class="about-point">Dedicated to client satisfaction through transparent communication.</div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="assets/images/hero_interior.png" alt="Midline Construction Project">
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="booking-section">
+        <div class="container reveal">
+            <div class="section-title">
+                <h2>Schedule a Consultation</h2>
+                <p>Let's discuss your next dream project together</p>
+            </div>
+            <div class="form-container">
+                <form id="consultationForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="Enter your WhatsApp number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service Interested In</label>
+                        <select id="service" required>
+                            <option value="" disabled selected>Select a service</option>
+                            <option value="Interior Design">Interior Design</option>
+                            <option value="Renovation">Renovation</option>
+                            <option value="Plain Design">Plain Design</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" rows="4" placeholder="Tell us about your project"></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%;">Share via WhatsApp</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>MIDLINE CONSTRUCTION</h3>
+                    <p>Building trust and excellence in Madurai. Construction, Interiors, and Renovation experts.</p>
+                    <span class="tamil-quote">"உங்கள் கனவு இல்லம், எங்கள் கலைவண்ணம்."</span>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#intro">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact" id="contact">
+                    <h4>Contact Us</h4>
+                    <ul class="contact-info">
+                        <li>📍 Madurai, Tamil Nadu</li>
+                        <li>📞 7904138703</li>
+                        <li>✉️ loki6144@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2025 Midline Construction. All rights reserved. Designed for Lokesh.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
